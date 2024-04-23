@@ -13,7 +13,7 @@ public class DemoUrlPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//*[text()='Accept All']")
+    @FindBy(xpath = "//*[text()='Tümünü Kabul Et']")
     public WebElement acceptCookiesButonu;
 
     @FindBy(id = "gdpr-consent-notice")
